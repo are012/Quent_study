@@ -1,0 +1,17 @@
+# 이동평균 전략 파라미터입니다.
+short_window: 3
+long_window: 5
+ma_type: sma
+
+# 지표 계산에 사용할 가격 컬럼입니다.
+price_column: close
+use_adjusted: false
+
+# 백테스트 초기 자본과 비교 기준 ticker입니다.
+initial_capital: 10000000
+benchmark: AAA
+
+# 포지션 sizing 방식입니다.
+sizing_method: equal_weight
+fixed_fraction: 0.25
+fixed_notional: 2500000

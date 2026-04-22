@@ -1,0 +1,12 @@
+# 종가 신호를 다음 거래일 시가에 체결하는 기본 모델입니다.
+fill_model: next_open
+
+# 수수료, 슬리피지, 세금 가정입니다.
+fee_rate: 0.00015
+slippage_bps: 5
+min_fee: 0
+tax_rate: 0
+
+# 너무 작은 주문을 차단하기 위한 최소 주문 조건입니다.
+min_order_quantity: 1
+min_order_notional: 0

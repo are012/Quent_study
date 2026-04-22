@@ -1,0 +1,14 @@
+# v1 live adapter는 한국투자증권(KIS)을 염두에 둔 안전한 dry-run 골격입니다.
+name: kis
+dry_run: true
+base_url: https://openapi.koreainvestment.com:9443
+
+# 실제 연동 시 사용할 인증 환경변수 이름입니다.
+account_id_env: KIS_ACCOUNT_ID
+app_key_env: KIS_APP_KEY
+app_secret_env: KIS_APP_SECRET
+token_env: KIS_ACCESS_TOKEN
+
+# 네트워크 요청 제한과 재시도 정책입니다.
+timeout_seconds: 5
+max_retries: 3
